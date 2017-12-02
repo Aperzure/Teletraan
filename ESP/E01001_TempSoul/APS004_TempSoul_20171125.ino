@@ -14,8 +14,8 @@
 
 #define mqtt_server "192.168.1.15"
 #define mqtt_port "1883"
-#define mqtt_username "mosquitto"
-#define mqtt_password "mosquitto"
+#define mqtt_username "<mosquitto username>"
+#define mqtt_password "<mosquitto password>"
 
 
 #define multisensor_topic "home/masterbed/dht"
@@ -23,8 +23,8 @@
 #define temperature_subtopic "temperature"
 #define heatindex_subtopic "heatIndex"
 
-#define ssid "TELATRAAN2G"
-#define password "$192168-X2412-2S"
+#define ssid "<wifi ssid>"
+#define password "<wifi password>"
 const int BUFFER_SIZE = 300;
 
 ESP8266WiFiMulti WiFiMulti;
